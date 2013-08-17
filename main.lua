@@ -42,7 +42,6 @@ end
 
 local function abrePorta()
     parteMovel:setReferencePoint(display.CenterLeftReferencePoint)
-            print("aa")
     while (not isOpen) do
         if (parteMovel.x < 190 and not isOpen) then
             parteMovel.x = parteMovel.x + 1
