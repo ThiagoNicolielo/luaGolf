@@ -22,7 +22,7 @@ function constroiCaixa(hasBotao)
     local parteD2 = display.newRect(obCaixa, 230, 200, 90, 20)
     local parteD3 = display.newRect(obCaixa, 190, 220, 130, 5)
     parteMovel = display.newRect(obCaixa, 90, 200, 140, 20)
-    parteMovel:setFillColor(255, 0, 0, 150)
+    parteMovel:setFillColor(255, 100, 0, 150)
     if (hasBotao) then
         botao = display.newRect(obCaixa, 200, 222, 40, 10)
         botao:setFillColor(255, 0, 0, 255)
