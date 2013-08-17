@@ -43,11 +43,8 @@ end
 local function abrePorta()
     parteMovel:setReferencePoint(display.CenterLeftReferencePoint)
     while (not isOpen) do
-        if (parteMovel.x < 190 and not isOpen) then
-            parteMovel.x = parteMovel.x + 1
-        else
-            isOpen = true
-        end
+        transition.to(parteMovel, {time=1500, x=190})
+        isOpen = true
     end
         
 
